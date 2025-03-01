@@ -52,7 +52,7 @@ st.markdown(
 
 # Título principal
 st.markdown("<div class='title'>💖 ¡Felicitaciones para el Amor de mi Vida! 💖</div>", unsafe_allow_html=True)
-st.image("images/lindarecuerdo.jpg", use_column_width=True)
+st.image("https://github.com/Alberto1460/linda_cumple/blob/main/Linda_cumple/images/lindarecuerdo.jpg", use_column_width=True)
 
 # Mensaje de amor
 st.markdown(
