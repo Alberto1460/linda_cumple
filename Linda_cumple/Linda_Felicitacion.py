@@ -107,7 +107,7 @@ with col2:
 # Sección para la imagen con efecto de rotación y tamaño más pequeño
 st.markdown("<div class='title'>🎉 ¡Que vivan los preciosotes! 🎉</div>", unsafe_allow_html=True)
 # Cargar la imagen
-image = Image.open("images/josue.jpg")
+image = Image.open("https://github.com/Alberto1460/linda_cumple/blob/main/Linda_cumple/images/josue.jpg")
 # Generar un ángulo aleatorio para la rotación
 angle = random.randint(-10, 10)  # Rota entre -10° y 10°
 
