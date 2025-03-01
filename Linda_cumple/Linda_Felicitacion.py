@@ -104,18 +104,8 @@ with col2:
         st.markdown("<div class='message'>💘 Eso es imposible amor, tú me amas muchote! 💘</div>", unsafe_allow_html=True)
         st.snow()
 
-# Sección para la imagen con efecto de rotación y tamaño más pequeño
-st.markdown("<div class='title'>🎉 ¡Que vivan los preciosotes! 🎉</div>", unsafe_allow_html=True)
-# Cargar la imagen
-image = Image.open("https://raw.githubusercontent.com/Alberto1460/linda_cumple/main/Linda_cumple/images/josue.jpg")
-# Generar un ángulo aleatorio para la rotación
-angle = random.randint(-10, 10)  # Rota entre -10° y 10°
+st.image("https://raw.githubusercontent.com/Alberto1460/linda_cumple/main/Linda_cumple/images/josue.jpg", use_column_width=True)
 
-# Rotar la imagen
-rotated_image = image.rotate(angle)
-
-# Mostrar la imagen rotada
-st.image(rotated_image, width=250)
 
 st.balloons()
 time.sleep(2)
